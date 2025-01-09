@@ -1,10 +1,14 @@
 import './App.css';
-import Default from './components/esdefault.jsx';
 
+import Body from './components/Home/body.jsx';
+import Logo from './components/Home/logo.jsx';
+import Footer from './components/Home/footer.jsx';
 function App() {
   return (
     <>
-      <Default />
+   <Logo></Logo>
+   <Body></Body>
+   <Footer></Footer>
     </>
   );
 }
