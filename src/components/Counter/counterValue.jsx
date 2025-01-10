@@ -12,7 +12,7 @@ const  Counter  = () => {
           <br />
   
   <h1>Counter value : </h1>
-          <span>{count}</span>
+          <h2>{count}</h2>
   
   
       <br />
