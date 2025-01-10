@@ -6,12 +6,13 @@ import OpenLink from '../components/Core/OpenLink.jsx';
 import viteLogo from "../assets/vite.svg";
 import git from "../assets/git.svg";
 import react from "../assets/react.svg";
-
+import Counter from '../components/Counter/counterValue.jsx';
 const Home = () => {
     return (
         <div>  
             <Logo></Logo>
             <Body></Body>
+            <Counter></Counter>
 <div><h1>Open Link</h1></div>
             <div>
                 <table>
