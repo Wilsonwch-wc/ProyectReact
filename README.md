@@ -3,7 +3,7 @@
 ## Laboratorio 4
 
 
-![Laboratorio - COUNTER ](./imagen.png)
+![Laboratorio - COUNTER ](./image.png)
 
 
 
