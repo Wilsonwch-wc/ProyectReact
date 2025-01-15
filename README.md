@@ -1,9 +1,9 @@
 # React + Vite
 
-## Laboratorio 4
+## Laboratorio 6
 
 
-![Laboratorio - COUNTER ](./imagen.png)
+![Laboratorio - COUNTER ](./img.png)
 
 
 
