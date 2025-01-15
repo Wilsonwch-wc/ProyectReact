@@ -1,10 +1,17 @@
 import './App.css';
 
-import Home from './screens/Home.jsx';
+//import Home from './screens/Home.jsx';
+import Navigator from "./components/navigation/navigation.jsx"
+import Router from "./components/navigation/router.jsx"
+
 function App() {
   return (
     <>
-   <Home />
+  
+  <Navigator />
+  <Router />
+   
+
     </>
   );
 }
