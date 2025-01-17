@@ -16,6 +16,9 @@ const Navigation = () => {
         <li className="navbar-item">
           <Link to="/counter" className="nav-link">Counter</Link>
         </li>
+        <li className="navbar-item">
+          <Link to="/login" className="nav-link">Form</Link>
+        </li>
       </ul>
     </nav>
   );
