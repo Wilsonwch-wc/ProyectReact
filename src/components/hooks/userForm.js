@@ -1,20 +1,27 @@
 import { useState } from "react";
-const useForm = (initialState = {}) => {
-    const [formData, setFormData] = useState(initialState);
+
+const useForm = (initialValues) => {
+    const [formValues, setFormValues] = useState(initialValues);
+
+    // Manejar cambios en los inputs
     const handleChange = (e) => {
         const { name, value } = e.target;
-        setFormData({
-            ...formData,
+        setFormValues({
+            ...formValues,
             [name]: value,
         });
     };
+
+    // Método para resetear el formulario
     const resetForm = () => {
-        setFormData(initialState);
+        setFormValues(initialValues);
     };
+
     return {
-        formData,
+        formValues,
         handleChange,
         resetForm,
     };
 };
+
 export default useForm;

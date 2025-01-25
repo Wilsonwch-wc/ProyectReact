@@ -1,19 +1,14 @@
-import './App.css';
+import Navigation from "../src/components/navigation/navigation.jsx";
+import Router from "../src/components/navigation/router.jsx";
 
-//import Home from './screens/Home.jsx';
-import Navigator from "./components/navigation/navigation.jsx"
-import Router from "./components/navigation/router.jsx"
-
-function App() {
+const App = () => {
   return (
-    <>
-  
-  <Navigator />
-  <Router />
-   
-
-    </>
+    <div>
+      <Navigation />
+      
+      <Router />
+    </div>
   );
-}
+};
 
 export default App;

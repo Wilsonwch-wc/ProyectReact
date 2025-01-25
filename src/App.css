@@ -89,7 +89,7 @@
   background-color: #405aa7;
 }
 
-/* Footer */
+
 .footer {
   margin-top: 3rem;
   padding: 1rem;
@@ -98,7 +98,7 @@
   text-align: center;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
   .navbar-menu {
     flex-direction: column;

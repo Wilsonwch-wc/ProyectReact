@@ -1,0 +1,41 @@
+/* src/styles/Navigation.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #0056b3;
+  }
+  
+  .navbar-menu {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navbar-item {
+    list-style: none;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  .logout-button {
+    background-color: #ff5733;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout-button:hover {
+    background-color: #c70039;
+  }
+  

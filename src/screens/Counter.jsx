@@ -1,18 +1,20 @@
-import Counter from '../components/Counter/counterValue.jsx';
-import CONT from '../components/Counter/Counter.jsx';
+
+import Footer from '../components/Home/footer.jsx';
+
 
 const Home = () => {
-    return (
-        <div>  
-           <h1>CONTADOR</h1>
-            <Counter></Counter>
- 
-<CONT></CONT>
-          
-        </div>
-    );
-}
+  return (
+    <div className="home-container">
+      <header className="home-header">
+        <h1>COUNTER</h1>
+      </header>
+
+   
+      
+
+      <Footer />
+    </div>
+  );
+};
 
 export default Home;
-
-
