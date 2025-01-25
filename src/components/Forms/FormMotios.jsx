@@ -1,5 +1,5 @@
 import { motion } from "motion/react"
-import useForm from "../Hooks/userForm.js";
+import useForm from "../hooks/userForm.js";
 
 // eslint-disable-next-line react/prop-types
 const FormWithMotionAndHook = ({ titleForm }) => {
@@ -9,7 +9,7 @@ const FormWithMotionAndHook = ({ titleForm }) => {
     });
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log('datos del formulario', formData);
+        console.log('Datos del formulario', formData);
     };
 
     return (
