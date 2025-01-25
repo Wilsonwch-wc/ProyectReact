@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { useState } from 'react';
 import { motion } from 'motion/react';
 import { useDispatch, useSelector } from 'react-redux';
@@ -6,11 +5,6 @@ import { updateFormData, validateAndSaveFormData } from '../../store/formSlice.j
 import ModalInfo from '../Modals/ModalInfo.jsx';
 import { useNavigate } from 'react-router-dom'; 
 import './Form.css';
-=======
-import { motion } from "motion/react"
-import useForm from "../hooks/userForm.js";
-
->>>>>>> 08c30ba4c33277f17fb1fc229e0ebccefb125037
 // eslint-disable-next-line react/prop-types
 const FormWithMotionAndHook = ({ titleForm }) => {
   const dispatch = useDispatch();
@@ -170,8 +164,5 @@ const FormWithMotionAndHook = ({ titleForm }) => {
     </motion.div>
   );
 };
-<<<<<<< HEAD
 
-=======
->>>>>>> 08c30ba4c33277f17fb1fc229e0ebccefb125037
 export default FormWithMotionAndHook;
